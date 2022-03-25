@@ -3,12 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>welcome</title>
+    <title>Acucoin | A realidade do mundo imaginário</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+        .fx img{
+            transition: .5s;
+        }
+        .fx img:hover {
+            transform:scale(1.25,1.25);
+            transition: .5s;
+        }
+    </style>
 </head>
 
 <body>
@@ -43,11 +53,16 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-6 ml-auto">
-                    <div class="nev_btn text-right">
-                        <button>sign in</button>
-                        <button>register</button>
-                    </div>
+                <div class="col-sm-8" style="text-align:left;">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </div>
+                <div class="col-sm-2 ml-auto">
+                    <img src="images/map.png" style="width:200px;">
                 </div>
             </div>
         </div>
@@ -73,20 +88,39 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-8 m-auto">
-                                <div class="banner_txt">
-                                    <p>ACUCOIN is an utility token from African Comics Universe.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-8 m-auto">
                                 <div class="banner_form text-center">
-                                    <form action="">
-                                        <input type="email" class="" id="" name="" placeholder="Enter your email address">
-                                        <button>Get started</button>
-                                    </form>
                                     <a href="#">1 ACU = 0.02 USD</a> <span class="text-white">|</span>
-                                    <a href="#">We accept: TRX, USDT, BNB, ADA, DOGE and Pay Pal </a> <span class="text-white"></span>
+                                    <a href="#">We accept: TRX, USDT, BNB, ADA, DOGE, Pay Pal and IBAN</a> <span class="text-white"></span>
+
+                                    <div class="row col-md-10 m-auto pt-4">
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#tronModal" data-whatever="@fat" >
+                                            <img class="ml-4" src="images/trx.png" style="width:40px;" title="TRX">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#usdtModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/tetrum.png" style="width:40px;" title="USDT">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#bnbModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/bnb.png" style="width:40px;" title="BNB">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#adaModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/ada.png" style="width:40px;" title="ADA">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#dogeModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/doge.png" style="width:40px;">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#ppModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/pp.png" style="width:40px;">
+                                        </div>
+
+                                        <div class="fx" class="btn btn-primary" data-toggle="modal" data-target="#ibanModal" data-whatever="@fat">
+                                            <img class="ml-4" src="images/mce.png" style="width:42px;">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +183,7 @@
         <div class="container">
             <div class="row position_transform">
                 <div class="col-md-6">
-                    <div class="btc_ser_inner">
+                    <div class="btc_ser_inner" style="border-radius:10px;">
                         <div id="particles-new1js" class="btc_ser_partical"></div>
                         <div class="row">
                             <div class="col-sm-3">
@@ -170,13 +204,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="btc_ser_inner">
+                    <div class="btc_ser_inner" style="border-radius:10px;">
                         <div id="particles-new2js" class="btc_ser_partical"></div>
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <i class="fa fa-area-chart" aria-hidden="true"></i>
-                                </div>
-                            </div>
                                 <div class="btc_ser_txt">
                                     <h4>ICO´s</h4>
                                     <p>Pre-ICO : 200.000 ACU - 1 ACU - 0.02 USD</p>
@@ -184,10 +213,11 @@
                                     <p>2nd ICO : 200.000 ACU - 1 ACU - 0.05 USD</p>
                                     <p>3rd ICO : 200.000 ACU - 1 ACU - 0.07 USD</p>
                                     <p>4th ICO : 200.000 ACU - 1 ACU - 0.09 USD</p>
-                                    
                                 </div>
                             </div>
+                            </div>
                         </div>
+                    </div>
                     </div>
 
                 </div>
@@ -276,157 +306,7 @@
     <!--  end of services part -->
 
 
-    <!--<section id="full_form">
-        <div class="container">
-            <nav>
-                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><span>1</span>sign up</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><span>2</span>deposite funds</a>
-                    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false"><span>3</span>buy digital currency</a>
-                </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                    <div class="main_form_part">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <div class="containt_txt">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, quae.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form">
-                                    <form>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="First name">
-                                            </div>
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="Last name">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="email" class="" id="" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Password">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Confirm Password">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-4">
-                                            <div class="col-12">
-                                                <button type="submit" class="mb-2">sign up</button>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                    <div class="main_form_part">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <div class="containt_txt">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, quae.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form">
-                                    <form>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="First name">
-                                            </div>
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="Last name">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="email" class="" id="" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Password">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Confirm Password">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-4">
-                                            <div class="col-12">
-                                                <button type="submit" class="mb-2">sign up</button>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                    <div class="main_form_part">
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <div class="containt_txt">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, quae.</p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form">
-                                    <form>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="First name">
-                                            </div>
-                                            <div class="col">
-                                                <input type="text" class="" placeholder="Last name">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="email" class="" id="" placeholder="Email">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Password">
-                                            </div>
-                                        </div>
-                                        <div class="row py-2">
-                                            <div class="col">
-                                                <input type="password" class="" id="" placeholder="Confirm Password">
-                                            </div>
-                                        </div>
-                                        <div class="row mt-4">
-                                            <div class="col-12">
-                                                <button type="submit" class="mb-2">sign up</button>
-                                            </div>
-                                        </div>
-
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
 
     <!--  end of get start part part -->
@@ -501,6 +381,341 @@
 
 
     <!--    <div class="bg-secondary" id="particles-js"></div>-->
+
+    <!-- BEGIN MODAL PAYMENT METHOD -->
+
+    <!-- tron -->
+    <div class="modal fade" id="tronModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with TRX</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Valor</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Quantidade</label>
+                    <h1>
+                        54328 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit TRX:</span>
+                    <br>
+                TDyCD9cxFTyrrqoa3tysBTGFMn6DRDEbU3
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- usdt -->
+    <div class="modal fade" id="usdtModal" tabindex="-2" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with USDT</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Valor</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Quantidade</label>
+                    <h1>
+                        432 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit USDT:</span>
+                    <br>
+                TDyCD9cxFTyrrqoa3tysBTGFMn6DRDEbU3
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bnb -->
+    <div class="modal fade" id="bnbModal" tabindex="-3" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with BNB</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Valor</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Quantidade</label>
+                    <h1>
+                        94 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit BNB:</span>
+                    <br>
+                TDyCD9cxFTyrrqoa3tysBTGFMn6DRDEbU3
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ada -->
+    <div class="modal fade" id="adaModal" tabindex="-4" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with ADA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Valor</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Quantidade</label>
+                    <h1>
+                        394 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit ADA:</span>
+                    <br>
+                TDyCD9cxFTyrrqoa3tysBTGFMn6DRDEbU3
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- doge -->
+    <div class="modal fade" id="dogeModal" tabindex="-5" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with DOGE</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Valor</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Quantidade</label>
+                    <h1>
+                        394 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit DOGE:</span>
+                    <br>
+                TDyCD9cxFTyrrqoa3tysBTGFMn6DRDEbU3
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- paypal -->
+    <div class="modal fade" id="ppModal" tabindex="-6" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with PayPal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="endereco-cart" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="endereco-cart" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Value</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Qtd</label>
+                    <h1>
+                        394 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Pay with PayPal:</span>
+                    <br>
+                acu-editora@gmail.com
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- iban -->
+    <div class="modal fade" id="ibanModal" tabindex="-4" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Buy with IBAN</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="card-coin" class="col-form-label">Enter your Acucoin receive address</label>
+                <input type="text" class="form-control" id="card-coin" placeholder="TDtGD9ydFTyrrqoa9xpsMGBFMn6DRDErU9">
+              </div>
+
+              <div class="form-group">
+                <label for="full-name" class="col-form-label">Full Name</label>
+                <input type="text" class="form-control" id="full-name" placeholder="João Miguel">
+              </div>
+
+              <div class="form-group">
+                <label for="p-number" class="col-form-label">Phone Number</label>
+                <input type="text" class="form-control" id="p-number" placeholder="930 000 000">
+              </div>
+
+               <div class="form-group">
+                <label for="p-number" class="col-form-label">Deposit Slip</label>
+                <input type="file" class="form-control" id="p-number" accept="image/* application/pdf">
+              </div>
+
+              <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="value_coin" class="col-form-label">Value</label>
+                    <input type="number" class="form-control" id="value_coin"value="10" min="10" max="20">
+                </div>
+
+                 <div class="col-sm-6">
+                    <label class="col-form-label">Qtd</label>
+                    <h1>
+                        394 <span style="font-size:20px;">ACU</span>
+                    </h1>
+                </div>
+               </div>
+
+               <div class="form-group">
+                <sapn class="col-form-label">Deposit IBAN:</span>
+                <br>
+                AO06.0047.0000.2486.4257.1012.9
+                <br>
+                Conta: <span style="text-transform: uppercase;">Lavare-Comercio</span>
+               </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL PAYMENT METHOD -->
 
 
     <script src="js/jquery-1.12.4.min.js"></script>
